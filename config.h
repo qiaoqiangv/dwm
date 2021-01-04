@@ -68,7 +68,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_f,	   spawn,          {.v = iecmd } },
-	{ MODKEY|ShiftMask,             XK_l,	   spawn,          {.v = slockcmd } },
+	{ MODKEY,             		XK_l,	   spawn,          {.v = slockcmd } },
 	{ MODKEY|ShiftMask,             XK_t,	   spawn,          {.v = trayercmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
